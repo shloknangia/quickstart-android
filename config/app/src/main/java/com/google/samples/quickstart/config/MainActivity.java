@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         mPriceTextView = (TextView) findViewById(R.id.priceView);
 
+        // [START set_fetch_button_click_listener]
         Button fetchButton = (Button) findViewById(R.id.fetchButton);
         fetchButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 fetchDiscount();
             }
         });
+        // [END set_fetch_button_click_listener]
 
         // Get Remote Config instance.
         // [START get_remote_config_instance]
