@@ -34,7 +34,7 @@ public class NewPostTest {
 
     @Test
     public void newPostTest() {
-        // Generate user and post content
+        // Generate user, email, password and post content
         String username = "user" + randomDigits();
         String email = username + "@example.com";
         String password = "testuser";
